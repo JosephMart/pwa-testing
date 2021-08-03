@@ -1,9 +1,10 @@
-import { onClick } from "./utils";
+import { log, onClick } from "./utils";
 
-console.log('hello world');
+log(`Hello World`);
 
-function test() {
-    console.log(`click`);
+function test(ev: MouseEvent) {
+    log(`click`);
 }
 
-onClick("testBtn", test);
+onClick("testX", test);
+onClick("testY", test);
