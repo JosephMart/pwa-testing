@@ -1,0 +1,6 @@
+{
+    "short_name": "PWA Testing",
+    "name": "PWA Testing Playground",
+    "start_url": "/?source=pwa",
+    "display": "standalone"
+}
